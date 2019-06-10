@@ -1,0 +1,315 @@
+/*
+*----------Body
+*/
+
+body{
+    background-image: url("../images/background_village.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page{
+    background-image: url("../images/bande_milieu.png") !important;
+    height: auto;
+    padding-bottom: 1em;
+}
+
+/*
+*----------Header
+*/
+#logo{
+    float: left;
+    position: relative;
+    top: 15px;
+    left: -14px;
+}
+
+.header{
+    background-image: url("../images/bandes.png");
+    
+    background-position-y: bottom;
+    height: 169px;
+    background-repeat: no-repeat;
+    right: -4px;
+    position: relative;
+    width: 1121px;
+}
+
+.etage1{
+    height: 53px;
+    color: aliceblue;
+    align-items: center;
+    position: relative;
+    top: 14px;
+    /* display: flex; */
+    flex-direction: row-reverse;
+}
+
+
+.etage1liens{
+    align-items: center;
+    position: relative;
+    /* left: 700px; */
+    width: 25em;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+.etage1liens a{
+    color: #1a2f5a;
+    font-size: 1em;
+}
+.etage1liens img{
+    height: 50%;
+}
+
+
+.etage2{
+    height: 53px;
+    color: white;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: end;
+    margin-right: 8%;
+}
+
+.etage2liens{
+    align-items: center;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.etage2 a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+} 
+
+.etage3{
+    height: 53px;
+    position: relative;
+    top: 10px;
+    width: 740px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.etage3 a{
+    color: white;
+    font-size: 1.2em;
+} 
+
+
+/*
+*----------Body
+*/
+
+.pub-box{
+    margin-top: 3%;
+}
+
+#pub_guitare{
+    width: 170%;
+}
+
+#banniere_droite{
+    width: 65%;     
+    margin-left: 107%;
+}
+
+#banniere_centre{
+    width: 1121px;
+    position: relative;
+    left: -25px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.categories{
+    width: 1121px;
+    position: relative;
+    left: 5px;
+}
+
+.imgcat{
+    width: 280.25px;
+    overflow: hidden;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h2{
+    color: #010c44;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.saxo{
+    width: 280px;
+    height: 182px;
+}
+
+/*-------- Hover images categories */
+
+.overlay-image1 .hover1{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image1:hover .hover1 {
+    opacity: 1;
+} 
+
+
+.overlay-image2 .hover2{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image2:hover .hover2 {
+    opacity: 1;
+} 
+
+
+.overlay-image3 .hover3{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image3:hover .hover3 {
+    opacity: 1;
+} 
+
+
+.overlay-image4 .hover4{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image4:hover .hover4 {
+    opacity: 1;
+} 
+
+
+.overlay-image5 .hover5{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image5:hover .hover5 {
+    opacity: 1;
+} 
+
+
+.overlay-image6 .hover6{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image6:hover .hover6 {
+    opacity: 1;
+}  
+
+
+.overlay-image7 .hover7{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image7:hover .hover7 {
+    opacity: 1;
+}
+
+
+.overlay-image8 .hover8{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image8:hover .hover8 {
+    opacity: 1;
+}  
+
+/*-------- Hover images TOP ventes */
+
+.overlay-image9 .hover9{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image9:hover .hover9 {
+    opacity: 1;
+}
+
+.overlay-image10 .hover10{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image10:hover .hover10 {
+    opacity: 1;
+}
+
+.overlay-image11 .hover11{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.overlay-image11:hover .hover11 {
+    opacity: 1;
+}
+
+#partenaires{
+    position: relative;
+    left: -60px;
+}
+
+/*
+*----------Footer
+*/
+
+#footer{
+    width:1148px;
+    position: relative;
+    left: -15px;
+}
